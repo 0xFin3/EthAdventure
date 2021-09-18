@@ -1,0 +1,124 @@
+{
+  "contractName": "Game",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Game.sol\":\"Game\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Game.sol\":{\"keccak256\":\"0xca70d3d1dfebeda6e625cf38e48129a080eb64550b2ffb206e8470e762517cee\",\"urls\":[\"bzz-raw://830dd00d27940649d7f5ba27157f64ad550b1a1d0d7ae6620e9fa1592da6a5da\",\"dweb:/ipfs/QmNszCZeAYLWMALS6kvoVG2WDyHMxqQ8Gfb4u7FHH4Tm4A\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158200b0f9238b8440a1f9282864dccab646d1f53eec1e7dfde313a3d5fd5b08cace564736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158200b0f9238b8440a1f9282864dccab646d1f53eec1e7dfde313a3d5fd5b08cace564736f6c63430005100032",
+  "sourceMap": "27:24:5:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:24:5;;;;;;;",
+  "deployedSourceMap": "27:24:5:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Game {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Game.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Game.sol",
+    "exportedSymbols": {
+      "Game": [
+        26
+      ]
+    },
+    "id": 27,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 25,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 26,
+        "linearizedBaseContracts": [
+          26
+        ],
+        "name": "Game",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 27,
+        "src": "27:24:5"
+      }
+    ],
+    "src": "0:51:5"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Game.sol",
+      "exportedSymbols": {
+        "Game": [
+          26
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 25,
+        "name": "PragmaDirective",
+        "src": "0:23:5"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            26
+          ],
+          "name": "Game",
+          "nodes": [
+            null
+          ],
+          "scope": 27
+        },
+        "id": 26,
+        "name": "ContractDefinition",
+        "src": "27:24:5"
+      }
+    ],
+    "id": 27,
+    "name": "SourceUnit",
+    "src": "0:51:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xdAe87e9DE1B8Efa7951bFBD1dA9862b598A74AB0",
+      "transactionHash": "0xa2c056d506f129ef14280a3f53e688235ba1dce1dd0e3813023d2ce824ca6032"
+    }
+  },
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:49.258Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

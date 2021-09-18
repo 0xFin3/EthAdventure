@@ -1,0 +1,116 @@
+{
+  "contractName": "Spell",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Spell.sol\":\"Spell\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Spell.sol\":{\"keccak256\":\"0x29ae57a3692a0084d621e266aaa2a9b21ec2ec976e97119fc675fc60438200fe\",\"urls\":[\"bzz-raw://3441eca58fd524291f8199e59a27c8c606a1055e3370f02d85f53c8bdb0fce7b\",\"dweb:/ipfs/QmUWXdtecnd968DvQQ2df8XxHpuW2PMY5f8QLX8CXRtkhr\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820b9761fcb62dd13875c24edb673279b9068c984584e75d7dec58a0e1031b024e364736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820b9761fcb62dd13875c24edb673279b9068c984584e75d7dec58a0e1031b024e364736f6c63430005100032",
+  "sourceMap": "27:26:7:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:26:7;;;;;;;",
+  "deployedSourceMap": "27:26:7:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ninterface Spell {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Spell.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Spell.sol",
+    "exportedSymbols": {
+      "Spell": [
+        62
+      ]
+    },
+    "id": 63,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 61,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 62,
+        "linearizedBaseContracts": [
+          62
+        ],
+        "name": "Spell",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 63,
+        "src": "27:26:7"
+      }
+    ],
+    "src": "0:53:7"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Spell.sol",
+      "exportedSymbols": {
+        "Spell": [
+          62
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 61,
+        "name": "PragmaDirective",
+        "src": "0:23:7"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            62
+          ],
+          "name": "Spell",
+          "nodes": [
+            null
+          ],
+          "scope": 63
+        },
+        "id": 62,
+        "name": "ContractDefinition",
+        "src": "27:26:7"
+      }
+    ],
+    "id": 63,
+    "name": "SourceUnit",
+    "src": "0:53:7"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.355Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

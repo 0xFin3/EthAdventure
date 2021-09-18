@@ -1,0 +1,185 @@
+{
+  "contractName": "Warrior",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Classes/Warrior.sol\":\"Warrior\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Class.sol\":{\"keccak256\":\"0x27c923fd3aa282bc4db657e20172718cdd630202bb3692bddfe5711efae48ecf\",\"urls\":[\"bzz-raw://8f826e5a65d695fa5cbebb7ce0aa5f6f2740eb9f2f7b7ca9cd77c155c17fef85\",\"dweb:/ipfs/QmPx9vqWaFAhc1YdgkZnajLEMhkcktnnAypDZWV5syCAHG\"]},\"project:/contracts/Classes/Warrior.sol\":{\"keccak256\":\"0xd671893077726f8083b459f689e7c3283a7c45583b40d64351f1109df4f6c262\",\"urls\":[\"bzz-raw://b94d771ac5aadb433638f01da4f198c02f227f2203a975af1747df8b21dbf9d6\",\"dweb:/ipfs/QmNp6LHb9eY6ayXFT4gDgguw8kRHVekGzBCPtBUPECNXfj\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820319ef93e37fbacb939b5a1bb85480f88ed36e6392cb69b65b95f4aa6fa13513864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820319ef93e37fbacb939b5a1bb85480f88ed36e6392cb69b65b95f4aa6fa13513864736f6c63430005100032",
+  "sourceMap": "53:36:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:36:3;;;;;;;",
+  "deployedSourceMap": "53:36:3:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../Class.sol\";\r\n\r\ncontract Warrior is Class {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Classes\\Warrior.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Classes/Warrior.sol",
+    "exportedSymbols": {
+      "Warrior": [
+        17
+      ]
+    },
+    "id": 18,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 13,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "absolutePath": "project:/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 14,
+        "nodeType": "ImportDirective",
+        "scope": 18,
+        "sourceUnit": 6,
+        "src": "27:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 15,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "73:5:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 16,
+            "nodeType": "InheritanceSpecifier",
+            "src": "73:5:3"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 17,
+        "linearizedBaseContracts": [
+          17,
+          5
+        ],
+        "name": "Warrior",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 18,
+        "src": "53:36:3"
+      }
+    ],
+    "src": "0:89:3"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Classes/Warrior.sol",
+      "exportedSymbols": {
+        "Warrior": [
+          17
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 13,
+        "name": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 6,
+          "absolutePath": "project:/contracts/Class.sol",
+          "file": "../Class.sol",
+          "scope": 18,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 14,
+        "name": "ImportDirective",
+        "src": "27:22:3"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            5
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            17,
+            5
+          ],
+          "name": "Warrior",
+          "nodes": [
+            null
+          ],
+          "scope": 18
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Class",
+                  "referencedDeclaration": 5,
+                  "type": "contract Class"
+                },
+                "id": 15,
+                "name": "UserDefinedTypeName",
+                "src": "73:5:3"
+              }
+            ],
+            "id": 16,
+            "name": "InheritanceSpecifier",
+            "src": "73:5:3"
+          }
+        ],
+        "id": 17,
+        "name": "ContractDefinition",
+        "src": "53:36:3"
+      }
+    ],
+    "id": 18,
+    "name": "SourceUnit",
+    "src": "0:89:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.352Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

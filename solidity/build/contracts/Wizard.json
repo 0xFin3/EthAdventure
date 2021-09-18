@@ -1,0 +1,185 @@
+{
+  "contractName": "Wizard",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Classes/Wizard.sol\":\"Wizard\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Class.sol\":{\"keccak256\":\"0x27c923fd3aa282bc4db657e20172718cdd630202bb3692bddfe5711efae48ecf\",\"urls\":[\"bzz-raw://8f826e5a65d695fa5cbebb7ce0aa5f6f2740eb9f2f7b7ca9cd77c155c17fef85\",\"dweb:/ipfs/QmPx9vqWaFAhc1YdgkZnajLEMhkcktnnAypDZWV5syCAHG\"]},\"project:/contracts/Classes/Wizard.sol\":{\"keccak256\":\"0x96c17ac5fd0223621ee5c92f8b8a76cbf6861b60f83507880a92c89b01b0bead\",\"urls\":[\"bzz-raw://dd6c7f3d40fb83f71c00f793339e81e03d226a9b7c5ed4403857a54985da9e0a\",\"dweb:/ipfs/QmTVaxBMRjDavY991z3D2sqZxGDyBUW24ciJ6DCW9UXYcf\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158200a06e00b38923323dc7c5ec4c408316a6019acde2e35ef90dae83ac56a7860a564736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158200a06e00b38923323dc7c5ec4c408316a6019acde2e35ef90dae83ac56a7860a564736f6c63430005100032",
+  "sourceMap": "53:35:4:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:35:4;;;;;;;",
+  "deployedSourceMap": "53:35:4:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../Class.sol\";\r\n\r\ncontract Wizard is Class {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Classes\\Wizard.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Classes/Wizard.sol",
+    "exportedSymbols": {
+      "Wizard": [
+        23
+      ]
+    },
+    "id": 24,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 19,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "absolutePath": "project:/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 20,
+        "nodeType": "ImportDirective",
+        "scope": 24,
+        "sourceUnit": 6,
+        "src": "27:22:4",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 21,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "72:5:4",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 22,
+            "nodeType": "InheritanceSpecifier",
+            "src": "72:5:4"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 23,
+        "linearizedBaseContracts": [
+          23,
+          5
+        ],
+        "name": "Wizard",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 24,
+        "src": "53:35:4"
+      }
+    ],
+    "src": "0:88:4"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Classes/Wizard.sol",
+      "exportedSymbols": {
+        "Wizard": [
+          23
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 19,
+        "name": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 6,
+          "absolutePath": "project:/contracts/Class.sol",
+          "file": "../Class.sol",
+          "scope": 24,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 20,
+        "name": "ImportDirective",
+        "src": "27:22:4"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            5
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            23,
+            5
+          ],
+          "name": "Wizard",
+          "nodes": [
+            null
+          ],
+          "scope": 24
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Class",
+                  "referencedDeclaration": 5,
+                  "type": "contract Class"
+                },
+                "id": 21,
+                "name": "UserDefinedTypeName",
+                "src": "72:5:4"
+              }
+            ],
+            "id": 22,
+            "name": "InheritanceSpecifier",
+            "src": "72:5:4"
+          }
+        ],
+        "id": 23,
+        "name": "ContractDefinition",
+        "src": "53:35:4"
+      }
+    ],
+    "id": 24,
+    "name": "SourceUnit",
+    "src": "0:88:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.353Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "contractName": "Character",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Character.sol\":\"Character\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Character.sol\":{\"keccak256\":\"0x57fbdf9ef8ec5f282d212f8240a6980cd8d719387ac328f945b15b5333a7880a\",\"urls\":[\"bzz-raw://5904b29e08a8947866a2938f8c2b91a0c84c8b42f3ac67e1dfc08e8c1c19e8f6\",\"dweb:/ipfs/Qmf5WLo7gfTK6BUhz6L8qYhpx7H16rzjpFabNnqb37dxok\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820e329169fa7c9aa85f8d09c3103cf795d5f52789fe410aa16bb958958a40192a164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820e329169fa7c9aa85f8d09c3103cf795d5f52789fe410aa16bb958958a40192a164736f6c63430005100032",
+  "sourceMap": "27:29:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:29:0;;;;;;;",
+  "deployedSourceMap": "27:29:0:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\ncontract Character {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Character.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Character.sol",
+    "exportedSymbols": {
+      "Character": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Character",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "27:29:0"
+      }
+    ],
+    "src": "0:56:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Character.sol",
+      "exportedSymbols": {
+        "Character": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:23:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "Character",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "27:29:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "0:56:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.350Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

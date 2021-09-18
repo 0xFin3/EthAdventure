@@ -1,0 +1,185 @@
+{
+  "contractName": "Backstab",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Spells/Backstab.sol\":\"Backstab\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Spell.sol\":{\"keccak256\":\"0x29ae57a3692a0084d621e266aaa2a9b21ec2ec976e97119fc675fc60438200fe\",\"urls\":[\"bzz-raw://3441eca58fd524291f8199e59a27c8c606a1055e3370f02d85f53c8bdb0fce7b\",\"dweb:/ipfs/QmUWXdtecnd968DvQQ2df8XxHpuW2PMY5f8QLX8CXRtkhr\"]},\"project:/contracts/Spells/Backstab.sol\":{\"keccak256\":\"0x20234e085a252924e605d5f6b769ee1b91a9eede3776ee0dc841089996042364\",\"urls\":[\"bzz-raw://febe0151f6a63c8507c1c6c2a74138c9f7bda3a40acd87e23ef791a7dd48056d\",\"dweb:/ipfs/QmQWz7BhwReWAppzrUhbXF5AxXRfsxSmeWgF6SEt3JTstQ\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582042342b28fe5e03a81f35e0dad6bca914e043281024c1b247cb93d165fa21114864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582042342b28fe5e03a81f35e0dad6bca914e043281024c1b247cb93d165fa21114864736f6c63430005100032",
+  "sourceMap": "53:37:8:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:37:8;;;;;;;",
+  "deployedSourceMap": "53:37:8:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../Spell.sol\";\r\n\r\ncontract Backstab is Spell {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Spells\\Backstab.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Spells/Backstab.sol",
+    "exportedSymbols": {
+      "Backstab": [
+        68
+      ]
+    },
+    "id": 69,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 64,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:8"
+      },
+      {
+        "absolutePath": "project:/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 65,
+        "nodeType": "ImportDirective",
+        "scope": 69,
+        "sourceUnit": 63,
+        "src": "27:22:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 66,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 62,
+              "src": "74:5:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$62",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 67,
+            "nodeType": "InheritanceSpecifier",
+            "src": "74:5:8"
+          }
+        ],
+        "contractDependencies": [
+          62
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 68,
+        "linearizedBaseContracts": [
+          68,
+          62
+        ],
+        "name": "Backstab",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 69,
+        "src": "53:37:8"
+      }
+    ],
+    "src": "0:90:8"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Spells/Backstab.sol",
+      "exportedSymbols": {
+        "Backstab": [
+          68
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 64,
+        "name": "PragmaDirective",
+        "src": "0:23:8"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 63,
+          "absolutePath": "project:/contracts/Spell.sol",
+          "file": "../Spell.sol",
+          "scope": 69,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 65,
+        "name": "ImportDirective",
+        "src": "27:22:8"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            62
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            68,
+            62
+          ],
+          "name": "Backstab",
+          "nodes": [
+            null
+          ],
+          "scope": 69
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Spell",
+                  "referencedDeclaration": 62,
+                  "type": "contract Spell"
+                },
+                "id": 66,
+                "name": "UserDefinedTypeName",
+                "src": "74:5:8"
+              }
+            ],
+            "id": 67,
+            "name": "InheritanceSpecifier",
+            "src": "74:5:8"
+          }
+        ],
+        "id": 68,
+        "name": "ContractDefinition",
+        "src": "53:37:8"
+      }
+    ],
+    "id": 69,
+    "name": "SourceUnit",
+    "src": "0:90:8"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.356Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

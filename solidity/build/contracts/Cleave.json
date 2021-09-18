@@ -1,0 +1,185 @@
+{
+  "contractName": "Cleave",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Spells/Cleave.sol\":\"Cleave\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Spell.sol\":{\"keccak256\":\"0x29ae57a3692a0084d621e266aaa2a9b21ec2ec976e97119fc675fc60438200fe\",\"urls\":[\"bzz-raw://3441eca58fd524291f8199e59a27c8c606a1055e3370f02d85f53c8bdb0fce7b\",\"dweb:/ipfs/QmUWXdtecnd968DvQQ2df8XxHpuW2PMY5f8QLX8CXRtkhr\"]},\"project:/contracts/Spells/Cleave.sol\":{\"keccak256\":\"0x524ec7897ff24ed23cd33aab9e9885e58fbb30d88ec02b5cce3bfcd20a2293e6\",\"urls\":[\"bzz-raw://ba8d7f5a2b21c9556bdb0122bcb4e8e511c03045c3d47778d3954fd397c3248c\",\"dweb:/ipfs/QmP94AGPYLc71BqorzBAzxEir1pYpvKu9zsNLRdwuD4Wi4\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820898f55ccc3066a70706639a5bfa3d7797828520417ac189dd59ca5dfeeabf76e64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820898f55ccc3066a70706639a5bfa3d7797828520417ac189dd59ca5dfeeabf76e64736f6c63430005100032",
+  "sourceMap": "53:35:9:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:35:9;;;;;;;",
+  "deployedSourceMap": "53:35:9:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../Spell.sol\";\r\n\r\ncontract Cleave is Spell {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Spells\\Cleave.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Spells/Cleave.sol",
+    "exportedSymbols": {
+      "Cleave": [
+        74
+      ]
+    },
+    "id": 75,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 70,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:9"
+      },
+      {
+        "absolutePath": "project:/contracts/Spell.sol",
+        "file": "../Spell.sol",
+        "id": 71,
+        "nodeType": "ImportDirective",
+        "scope": 75,
+        "sourceUnit": 63,
+        "src": "27:22:9",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 72,
+              "name": "Spell",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 62,
+              "src": "72:5:9",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Spell_$62",
+                "typeString": "contract Spell"
+              }
+            },
+            "id": 73,
+            "nodeType": "InheritanceSpecifier",
+            "src": "72:5:9"
+          }
+        ],
+        "contractDependencies": [
+          62
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 74,
+        "linearizedBaseContracts": [
+          74,
+          62
+        ],
+        "name": "Cleave",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 75,
+        "src": "53:35:9"
+      }
+    ],
+    "src": "0:88:9"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Spells/Cleave.sol",
+      "exportedSymbols": {
+        "Cleave": [
+          74
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 70,
+        "name": "PragmaDirective",
+        "src": "0:23:9"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 63,
+          "absolutePath": "project:/contracts/Spell.sol",
+          "file": "../Spell.sol",
+          "scope": 75,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 71,
+        "name": "ImportDirective",
+        "src": "27:22:9"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            62
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            74,
+            62
+          ],
+          "name": "Cleave",
+          "nodes": [
+            null
+          ],
+          "scope": 75
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Spell",
+                  "referencedDeclaration": 62,
+                  "type": "contract Spell"
+                },
+                "id": 72,
+                "name": "UserDefinedTypeName",
+                "src": "72:5:9"
+              }
+            ],
+            "id": 73,
+            "name": "InheritanceSpecifier",
+            "src": "72:5:9"
+          }
+        ],
+        "id": 74,
+        "name": "ContractDefinition",
+        "src": "53:35:9"
+      }
+    ],
+    "id": 75,
+    "name": "SourceUnit",
+    "src": "0:88:9"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.356Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

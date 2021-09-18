@@ -1,0 +1,185 @@
+{
+  "contractName": "Rogue",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Classes/Rogue.sol\":\"Rogue\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Class.sol\":{\"keccak256\":\"0x27c923fd3aa282bc4db657e20172718cdd630202bb3692bddfe5711efae48ecf\",\"urls\":[\"bzz-raw://8f826e5a65d695fa5cbebb7ce0aa5f6f2740eb9f2f7b7ca9cd77c155c17fef85\",\"dweb:/ipfs/QmPx9vqWaFAhc1YdgkZnajLEMhkcktnnAypDZWV5syCAHG\"]},\"project:/contracts/Classes/Rogue.sol\":{\"keccak256\":\"0x76b19fda2bd106e42cbce1c9eb74d2c37281b2c9084f915ec0fe2491517342e2\",\"urls\":[\"bzz-raw://91732a493f6a1a8c002143bc3eeed86fa958679b92d872cddd53b9aac47aaa5e\",\"dweb:/ipfs/QmPEYGBchzArDxM4CuA8ZscMJmhJ7eZ8EyFjcEb2TLYAVN\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158200b330442cd1ea8136b8a8d89c09722fe370bf4d5b07d04df670723ab3d90d62064736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158200b330442cd1ea8136b8a8d89c09722fe370bf4d5b07d04df670723ab3d90d62064736f6c63430005100032",
+  "sourceMap": "53:34:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;53:34:2;;;;;;;",
+  "deployedSourceMap": "53:34:2:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\r\n\r\nimport \"../Class.sol\";\r\n\r\ncontract Rogue is Class {\r\n    \r\n}",
+  "sourcePath": "C:\\Dev\\EthAdventure\\solidity\\contracts\\Classes\\Rogue.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Classes/Rogue.sol",
+    "exportedSymbols": {
+      "Rogue": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "absolutePath": "project:/contracts/Class.sol",
+        "file": "../Class.sol",
+        "id": 8,
+        "nodeType": "ImportDirective",
+        "scope": 12,
+        "sourceUnit": 6,
+        "src": "27:22:2",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 9,
+              "name": "Class",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 5,
+              "src": "71:5:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Class_$5",
+                "typeString": "contract Class"
+              }
+            },
+            "id": 10,
+            "nodeType": "InheritanceSpecifier",
+            "src": "71:5:2"
+          }
+        ],
+        "contractDependencies": [
+          5
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11,
+          5
+        ],
+        "name": "Rogue",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 12,
+        "src": "53:34:2"
+      }
+    ],
+    "src": "0:87:2"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Classes/Rogue.sol",
+      "exportedSymbols": {
+        "Rogue": [
+          11
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".0"
+          ]
+        },
+        "id": 7,
+        "name": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 6,
+          "absolutePath": "project:/contracts/Class.sol",
+          "file": "../Class.sol",
+          "scope": 12,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 8,
+        "name": "ImportDirective",
+        "src": "27:22:2"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            5
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            11,
+            5
+          ],
+          "name": "Rogue",
+          "nodes": [
+            null
+          ],
+          "scope": 12
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": null
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "Class",
+                  "referencedDeclaration": 5,
+                  "type": "contract Class"
+                },
+                "id": 9,
+                "name": "UserDefinedTypeName",
+                "src": "71:5:2"
+              }
+            ],
+            "id": 10,
+            "name": "InheritanceSpecifier",
+            "src": "71:5:2"
+          }
+        ],
+        "id": 11,
+        "name": "ContractDefinition",
+        "src": "53:34:2"
+      }
+    ],
+    "id": 12,
+    "name": "SourceUnit",
+    "src": "0:87:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-09-18T19:26:47.351Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
